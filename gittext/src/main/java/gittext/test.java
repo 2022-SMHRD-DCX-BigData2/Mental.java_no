@@ -11,7 +11,7 @@ public class test {
 		System.out.println("현정 작성!");
 		System.out.println("현정 작성22222!");
 		System.out.println("현정 작성33333!");
-		
-		
+		System.out.println("성님 하잉~~");
+		System.out.println("노는게제일좋아");
 	}
 }

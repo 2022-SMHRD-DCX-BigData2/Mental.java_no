@@ -9,6 +9,7 @@ public class test {
 		System.out.println("내가 씀");
 		System.out.println("서연씀");
 		System.out.println("현정 작성!");
+		System.out.println("현정 작성22222!");
 		
 	}
 }

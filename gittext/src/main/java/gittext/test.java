@@ -7,6 +7,7 @@ public class test {
 		System.out.println("짝꿍 커밋!!");
 		System.out.println("성님 커밋!!");
 		System.out.println("내가 씀");
+		System.out.println("서연씀");
 		
 	}
 }

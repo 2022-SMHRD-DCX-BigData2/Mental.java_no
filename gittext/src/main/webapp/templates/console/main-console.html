@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+    <div class="card-header">
+      맛슐랭.
+    </div>
+
+    <div class="card-body" id="console-content">
+            <h3>맛집 공유 저장소에</h3>
+            <h3>오신 것을</h3>
+            <h3>환영합니다 🥰</h3>
+            <br>
+        {% if 'user_id' not in session %}
+        <img id="kakao-login-btn" src="{{ url_for('academy', filename='image/kakao_login_medium_narrow.png') }}" alt="">
+        {% else %}
+
+            <h4 class="hover-the-rainbow" style="text-decoration: underline;" onclick="displayMyPlaces()">👉나의 맛집지도 보기</h4>
+        {% endif %}
+    </div>
+</div>
+</body>
+</html>

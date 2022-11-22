@@ -2,7 +2,7 @@ package com.smhrd.calendar;
 
 public class MyCalendar {
 
-//	년도를 넘겨받아 윤년/ 평년을 판단해 윤년이면 true, 평년이면 false를 리턴하는 메서드
+//	년도를 넘겨받아 윤년/ 평년을 판단해 윤년이면 true, 평년이면 false를 리턴하는 메소드
 	public static boolean isLeapYear(int year) {
 		return (year % 4 ==0) && (year % 100 !=0) ||(year % 400 ==0);
 	}

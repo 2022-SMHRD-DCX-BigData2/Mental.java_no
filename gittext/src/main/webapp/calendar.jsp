@@ -16,7 +16,7 @@
 	tr{height: 60px;}
 	td{width: 100px; text-align: right; font-size: 15pt; font-family: D2coding;}
 /* 타이틀 스타일 */
-	th#title {font-size: 20pt; font-weight: bold; color: #FFBF00; font-family: D2coding; }
+	th#title {font-size: 20pt; font-weight: bold; color: #000000; font-family: D2coding; }
 
 /* 요일 스타일 */
 	td.sunday{ text-align: center; font-weight: bold; color: red; font-family: D2coding; }
